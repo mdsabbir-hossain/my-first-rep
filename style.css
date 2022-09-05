@@ -1,6 +1,104 @@
-p{
-    color:navy;
+body{
+    font-family: 'Poppins', Sans-Serif;
 }
 h1{
-    background-color:yellow;
+    font-size: 60px;
+    
+    
 }
+h2{
+    font-size:50px;
+    
+}
+
+
+span {
+    color:orange;
+}
+.web-section{
+    display:flex;
+    padding:10px;
+    margin-left:70px;
+    margin-bottom:150px;
+}
+.hlfe-img{
+   height:300px;
+   
+   padding:10px;
+   margin-right:150px;
+
+}
+.link-button{
+ text-decoration: none;
+ font-size: 20px;
+ padding:5px;
+   
+color:wheat;
+background-color:orange ;
+font-weight: 700;
+
+
+}
+.site-section{
+  display: flex;
+  
+    
+    
+}
+.full-img{
+    
+    height:300px;
+    margin-left: 100px;
+}
+h4{
+    margin-left: 100px;
+    font-size: 50px;
+}
+h5{
+    margin-left: 100px;
+    font-size: 40px;
+}
+.web-limon{
+    margin-left: 100px;
+}
+.hover{
+    margin-left: 100px;
+    background-color:orange;
+    color:wheat;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.full-stack {
+   box-shadow : 5px 5px 5px 5px grey ;
+   margin-right: 50px;
+   margin-left: 50px;
+   padding: 5px;
+   border-radius: 10px;
+   border-left: 7px solid;
+   border-image: linear-gradient(green,tomato);
+   border-image-slice:1;
+}
+.h3{
+    color:orange;
+}
+.baby-web {
+    box-shadow :5px 5px 5px 5px gray ;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,wheat);
+    border-image-slice:1;
+}
+.full-web-developer{
+    display: flex;
+    margin-bottom: 150px;
+}
+p{
+    text-align: center;
+}
+
+
+
