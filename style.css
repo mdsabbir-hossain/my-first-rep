@@ -4,7 +4,7 @@ body{
 
 }
 .hero-section{
-    background-image: url("donate1.jpg");
+    background-image: url("donate3.jpg");
     background-repeat: no-repeat;
    background-position: center;
    background-size: cover ;
@@ -35,6 +35,8 @@ a{
     padding: 15px;
     border-radius: 5px;
 
+    
+
 }
 .title{
     text-align:center;
@@ -49,8 +51,129 @@ a{
 }
 .content{
     display:flex;
+    justify-content: center;
+    gap: 30px;
+    
 }
- 
+.box{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding: 10px;
+    margin-top: 30px;
+    color:gray;
+    border:5px solid white;
+    border-radius: 5px;
+    
+    
+}
+#box1{
+    color:tomato;
+    border:2px solid tomato;
+
+}
+.link{
+    text-align: center;
+    
+}
+.link h1{
+    margin:50px;
+    color:gray;
+    font-size: 17px;
+}
+.hero-plan{
+    text-align: center;
+    margin-top: 100px;
+}
+.box-container{
+    display: flex;
+    margin-top: 30px;
+}
+.plan-container{
+    padding: 20px;
+    text-align:center;
+}
+.food-box{
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 7px;
+    background-color:blanchedalmond;
+}
+.shlter-box1{
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 20px;
+    margin-left:20px;
+    margin-right: 20px;
+    border-radius: 7px;
+    background-color: bisque;
+}
+.frame-box2{
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 20px;
+    margin-right:40px ;
+    border-radius: 7px;
+    background-color: wheat;
+}
+.frist-benar{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 50px;
+
+    
+    
+}
+
+.frist-box h1{
+    font-size: 40px;
+}
+.frist-box p{
+  color:gray;
+  font-size: 15px;
+  padding: 15px;
+  
+  
+  
+}
+
+.second-box img{
+ width:  500px;
+ margin-left: 50px;
+ margin-right: 90px;
+
+}
+.update-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.update-section h1{
+    font-size: 40px;
+}
+.update-section p{
+    font-size: 15px;
+    color:grey;
+}
+.email-section{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    box-shadow: 10px 10px 10px 10px white;
+    color:grey;
+    background-color: blanchedalmond;
+    padding:40px;
+}
+#type-button{
+    color:white;
+    background-color:tomato;
+    padding: 7px;
+    border-radius: 5px;
+}
+.footer-container{
+    font-style: italic;
+    text-align: center;
+    margin-top: 100px;
+    color:white;
+    background-color: black;
+    padding: 30px;
+}
 
 
- 
